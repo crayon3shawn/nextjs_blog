@@ -303,12 +303,12 @@ export default function (props: PageProps) {
               <p
                 className="font-extrabold text-2xl
               text-center md:text-left">
-                Yuanlin Lin 林沅霖
+                Cheng Che Tsai 蔡承哲
               </p>
               <p
                 className="mt-6 mb-12 opacity-70
               text-center md:text-left">
-                台灣桃園人，目前就讀浙江大學，主修計算機科學與技術，同時兼職外包全端開發工程師，熱愛產品設計與軟體開發。
+                台灣高雄人，畢業於國立中正大學，主修心理學系，同時兼職外包全端開發工程師，熱愛產品設計與軟體開發。
               </p>
               <div className="flex justify-center md:justify-start">
                 <SocialLinks/>
@@ -367,22 +367,6 @@ export default function (props: PageProps) {
               <p>回部落格首頁</p>
             </div>
           </Link>
-          <div
-            className="w-full flex justify-between items-center
-        text-xs mt-8 lg:mt-12 flex-wrap"
-          >
-            <p className="mb-4 lg:mb-0">
-              © {new Date().getFullYear()} Yuanlin Lin. All rights reserved.
-            </p>
-            <a
-              href="https://zeabur.com?referralCode=yuaanlin&utm_source=yual.in"
-            >
-              <img
-                src="https://zeabur.com/deployed-on-zeabur-dark.svg"
-                alt="Deployed on Zeabur"
-              />
-            </a>
-          </div>
         </div>
       </div>}
 
