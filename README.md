@@ -9,7 +9,6 @@ This is my blog (https://yual.in/). Built with the following cool technologies:
 - [MongoDB](https://www.mongodb.com/)
 - [TailwindCSS](https://tailwindcss.com/) for styling
 - Article wrtten in [MDX](https://mdxjs.com/) syntax
-- Serving the website through [Zeabur](https://zeabur.com).
 
 ## Milestones
 
