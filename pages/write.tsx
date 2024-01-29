@@ -62,13 +62,13 @@ export default function () {
             <div
               className="flex flex-row align-bottom mt-4">
               <img
-                src="https://avatars.githubusercontent.com/u/21105863"
+                src="https://avatars.githubusercontent.com/u/40197412?v=4"
                 className="rounded-full h-8 w-8 mr-4"
                 alt="" />
               <p
                 className="text-white lg:text-xl
              font-extrabold opacity-80">
-                Yuanlin Lin 林沅霖
+                Cheng Che 蔡承哲
               </p>
               <p className="text-white lg:text-xl ml-2 lg:ml-8 opacity-60">
                 {new Date().toISOString().split('T')[0]}

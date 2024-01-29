@@ -17,7 +17,7 @@ function SocialLinks(props: Props) {
         color={props.color}/>
     </a>
     <a
-      href="https://github.com/yuaanlin"
+      href="https://github.com/crayon3shawn"
       className="ml-4 transition hover:text-zinc-500"
       target="_blank"
       rel="noreferrer">
@@ -31,14 +31,14 @@ function SocialLinks(props: Props) {
       <Linkedin size={18} color={props.color}/>
     </a>
     <a
-      href="https://www.instagram.com/yuanlin.dev/"
+      href="https://www.instagram.com/crayon3shawn/"
       className="ml-4 transition hover:text-zinc-500"
       target="_blank"
       rel="noreferrer">
       <Instagram size={18} color={props.color}/>
     </a>
     <a
-      href="https://www.facebook.com/yuaanlin"
+      href="https://www.facebook.com/chengche0830"
       className="ml-4 transition hover:text-zinc-500"
       target="_blank"
       rel="noreferrer">

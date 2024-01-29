@@ -12,18 +12,18 @@ interface Props {
 function PageHead(props: Props) {
   return <Head>
     <title>
-      {props?.title || 'Blog | Yuanlin Lin 林沅霖'}
+      {props?.title || 'Blog | Cheng Che Tsai 蔡承哲'}
     </title>
     <meta
       property="og:title"
-      content={props?.title || 'Blog | Yuanlin Lin 林沅霖'}
+      content={props?.title || 'Blog | Cheng Che Tsai 蔡承哲'}
       key="title" />
     <meta name="robots" content="index,follow" />
     {props.canonicalUrl && <link rel="canonical" href={props.canonicalUrl} />}
     <meta
       name="description"
-      content={props?.description || '我是林沅霖，目前就讀於浙江大學資訊工程系。' +
-        '我熱愛產品設計與軟體開發，擅長分析複雜的問題並提供有效的解決方案。歡迎查看我的部落格！'
+      content={props?.description || '我是蔡承哲，畢業於國立中正大學心理學系。' +
+        '雖然讀心理系但喜歡研究酷酷的軟體，擅長分析複雜的問題並提供有效的解決方案。歡迎查看我的部落格！'
       } />
     <meta
       name="keywords"
@@ -32,8 +32,8 @@ function PageHead(props: Props) {
     <meta property="og:type" content={props.type || 'website'} key="type" />
     <meta
       property="og:description"
-      content={props?.description || '我是林沅霖，目前就讀於浙江大學資訊工程系。' +
-        '我熱愛產品設計與軟體開發，擅長分析複雜的問題並提供有效的解決方案。歡迎查看我的部落格！'
+      content={props?.description || '我是蔡承哲，畢業於國立中正大學心理學系。' +
+        '雖然讀心理系但喜歡研究酷酷的軟體，擅長分析複雜的問題並提供有效的解決方案。歡迎查看我的部落格！'
       }
       key="description" />
     <meta
