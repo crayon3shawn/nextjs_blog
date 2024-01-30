@@ -27,7 +27,8 @@ function PageHead(props: Props) {
       } />
     <meta
       name="keywords"
-      content={props.keywords?.join(', ') || 'React, Javascript, Typescript, 網站開發, 軟體開發, 前端, 後端, UI, UX, Go, Golang, Python, Django, Blog, 部落格, Yuanlin, 林沅霖, html, css'} />
+      // eslint-disable-next-line max-len
+      content={props.keywords?.join(', ') || '爬山, 軟體, docker, 登山, Blog, 部落格, Cheng Che , 蔡承哲, crayon3shawn'} />
     <meta name="author" content="ChengChe Tsai 蔡承哲" />
     <meta property="og:type" content={props.type || 'website'} key="type" />
     <meta
