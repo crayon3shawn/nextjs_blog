@@ -290,7 +290,7 @@ export default function (props: PageProps) {
         <div className="w-full lg:w-[650px] px-4 mx-auto">
           <div className="flex items-center mt-12 flex-col md:flex-row">
             <img
-              src="https://avatars.githubusercontent.com/u/21105863?v=4"
+              src="https://avatars.githubusercontent.com/u/40197412?v=4"
               alt="author-avatar"
               className="w-24 h-24 rounded-full"
             />
