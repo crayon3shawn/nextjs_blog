@@ -126,8 +126,8 @@ export default function (props: PageProps) {
   return (
     <div>
       <PageHead
-        canonicalUrl={`https://yual.in/posts/${post.slug}`}
-        title={(post ? post.title : 'Blog') + '| Yuanlin Lin 林沅霖'}
+        canonicalUrl={`https://crayon3shawn.vercel.app/posts/${post.slug}`}
+        title={(post ? post.title : 'Blog') + '| 星辰代卸'}
         type="article"
         imageUrl={`/og_image/${post.slug}`}
         description={post?.content.substring(0, 100) + '...'}
@@ -145,7 +145,7 @@ export default function (props: PageProps) {
               className={cx(
                 'mr-2 z-50 transition duration-1000', shouldHideWhiteLogo
                   ? 'text-black' : 'text-white')}>
-              Yuanlin Lin
+              星辰代卸
             </p>
             <p className="text-lg text-[#c9ada7]">Blog</p>
           </div>
@@ -177,13 +177,13 @@ export default function (props: PageProps) {
           {!post ? <AuthorSkeleton/> : <div
             className="flex flex-row align-bottom mt-4">
             <img
-              src="https://avatars.githubusercontent.com/u/21105863"
+              src="https://avatars.githubusercontent.com/u/40197412?v=4"
               className="rounded-full h-8 w-8 mr-4"
               alt=""/>
             <p
               className="text-white lg:text-xl
              font-extrabold opacity-80">
-              星辰代卸 蔡承哲
+              星辰代卸
             </p>
             <p className="text-white lg:text-xl ml-2 lg:ml-8 opacity-60">
               {new Date(post?.createdAt).toISOString().split('T')[0]}

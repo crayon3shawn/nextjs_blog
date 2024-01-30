@@ -1,6 +1,6 @@
-# yual.in
+# crayon3shawn.com
 
-This is my blog (https://yual.in/). Built with the following cool technologies:
+This is my blog (https://crayon3shawn.vercel.app/). Built with the following cool technologies:
 
 ![](https://skillicons.dev/icons?i=ts,next,tailwind,mongodb)
 
@@ -8,7 +8,7 @@ This is my blog (https://yual.in/). Built with the following cool technologies:
 - [TypeScript](https://www.typescriptlang.org/)
 - [MongoDB](https://www.mongodb.com/)
 - [TailwindCSS](https://tailwindcss.com/) for styling
-- Article wrtten in [MDX](https://mdxjs.com/) syntax
+- Article written in [MDX](https://mdxjs.com/) syntax
 
 ## Milestones
 

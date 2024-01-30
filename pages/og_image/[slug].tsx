@@ -21,7 +21,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
 };
 
 async function generateImage(slug: string, res: ServerResponse) {
-  const font = await fetch('https://yual.in/NotoSansTC-Bold.otf');
+  const font = await fetch('https://crayon3shawn.vercel.app/NotoSansTC-Bold.otf');
   const fontBuffer = arrayBufferToBuffer(await font.arrayBuffer());
   GlobalFonts.register(fontBuffer, 'NotoSansTC-Bold');
   const post = await getPostBySlug(slug);
@@ -105,9 +105,6 @@ function printAt(
   context.fillText(text, x, y);
 }
 
-/**
- * https://stackoverflow.com/questions/21961839/simulation-background-size-cover-in-canvas
- **/
 function drawImageProp(
   ctx: SKRSContext2D,
   img: any,

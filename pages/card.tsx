@@ -7,10 +7,10 @@ export default () => {
     className="w-full pb-32 pt-16 bg-zinc-50 h-screen
     flex flex-col justify-center">
     <Head>
-      <title>林沅霖 Yuanlin Lin 的電子名片</title>
+      <title>蔡承哲 Cheng CHe Tsai 的電子名片</title>
       <meta
         name="og:description"
-        content="本頁是 Yuanlin Lin 林沅霖的電子名片，有自我介紹、作品集與聯繫方式。"
+        content="本頁是 Cheng Che Tsai 蔡承哲的電子名片，有自我介紹、作品集與聯繫方式。"
       />
       <meta
         name="og:image"
@@ -30,10 +30,10 @@ export default () => {
             關於我
           </p>
           <p className="font-extrabold text-2xl text-center">
-            Yuanlin Lin 林沅霖
+            Cheng Che 蔡承哲
           </p>
           <p className="mt-6 mb-12 opacity-70 text-center">
-            台灣桃園人，目前就讀浙江大學，主修資訊工程，同時兼職外包全端開發工程師，熱愛產品設計與軟體開發。
+            台灣高雄人，畢業於中正大學，主修心理學系，同時兼職外包全端開發工程師，熱愛產品設計與軟體開發。
           </p>
           <div className="flex justify-center">
             <SocialLinks/>

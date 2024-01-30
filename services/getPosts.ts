@@ -1,7 +1,6 @@
 import Post from '../models/post';
 import { MongoClient } from 'mongodb';
 
-//const uri = 'mongodb+srv://crayon3shawn:qyF7N0TOiH4GwdT7@cluster.wmrdetu.mongodb.net/nextjs_blog';
 const uri = process.env['MONGODB_URI'];
 
 export async function getPostsInMongo(): Promise<Post[]> {

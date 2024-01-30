@@ -107,9 +107,6 @@ function printAt(
   context.fillText(text, x, y);
 }
 
-/**
- * https://stackoverflow.com/questions/21961839/simulation-background-size-cover-in-canvas
- **/
 function drawImageProp(
   ctx: SKRSContext2D,
   img: any,
