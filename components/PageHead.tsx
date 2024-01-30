@@ -12,11 +12,11 @@ interface Props {
 function PageHead(props: Props) {
   return <Head>
     <title>
-      {props?.title || 'Blog | ChengChe Tsai 蔡承哲'}
+      {props?.title || 'Blog | 星辰代卸'}
     </title>
     <meta
       property="og:title"
-      content={props?.title || 'Blog | ChengChe Tsai 蔡承哲'}
+      content={props?.title || 'Blog | 星辰代卸'}
       key="title" />
     <meta name="robots" content="index,follow" />
     {props.canonicalUrl && <link rel="canonical" href={props.canonicalUrl} />}
@@ -28,7 +28,7 @@ function PageHead(props: Props) {
     <meta
       name="keywords"
       // eslint-disable-next-line max-len
-      content={props.keywords?.join(', ') || '爬山, 軟體, docker, 登山, Blog, 部落格, Cheng Che , 蔡承哲, crayon3shawn'} />
+      content={props.keywords?.join(', ') || '爬山, 軟體, docker, 登山, Blog, 部落格, Cheng Che, 星辰代卸, 蔡承哲, crayon3shawn'} />
     <meta name="author" content="ChengChe Tsai 蔡承哲" />
     <meta property="og:type" content={props.type || 'website'} key="type" />
     <meta
