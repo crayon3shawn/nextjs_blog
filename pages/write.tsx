@@ -68,7 +68,7 @@ export default function () {
               <p
                 className="text-white lg:text-xl
              font-extrabold opacity-80">
-                Cheng Che 蔡承哲
+                星辰代卸
               </p>
               <p className="text-white lg:text-xl ml-2 lg:ml-8 opacity-60">
                 {new Date().toISOString().split('T')[0]}

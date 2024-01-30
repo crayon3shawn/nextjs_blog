@@ -11,7 +11,8 @@ const nextConfig = {
       'i.imgur.com',
       'image.api.playstation.com',
       'kinsta.com',
-      'miro.medium.com'
+      'miro.medium.com',
+      'i.imugur.com'
     ]
   }
 };

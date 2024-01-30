@@ -183,7 +183,7 @@ export default function (props: PageProps) {
             <p
               className="text-white lg:text-xl
              font-extrabold opacity-80">
-              Yuanlin Lin 林沅霖
+              星辰代卸 蔡承哲
             </p>
             <p className="text-white lg:text-xl ml-2 lg:ml-8 opacity-60">
               {new Date(post?.createdAt).toISOString().split('T')[0]}
@@ -303,7 +303,7 @@ export default function (props: PageProps) {
               <p
                 className="font-extrabold text-2xl
               text-center md:text-left">
-                Cheng Che Tsai 蔡承哲
+                ChengChe Tsai 蔡承哲
               </p>
               <p
                 className="mt-6 mb-12 opacity-70

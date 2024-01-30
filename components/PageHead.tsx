@@ -12,11 +12,11 @@ interface Props {
 function PageHead(props: Props) {
   return <Head>
     <title>
-      {props?.title || 'Blog | Cheng Che Tsai 蔡承哲'}
+      {props?.title || 'Blog | ChengChe Tsai 蔡承哲'}
     </title>
     <meta
       property="og:title"
-      content={props?.title || 'Blog | Cheng Che Tsai 蔡承哲'}
+      content={props?.title || 'Blog | ChengChe Tsai 蔡承哲'}
       key="title" />
     <meta name="robots" content="index,follow" />
     {props.canonicalUrl && <link rel="canonical" href={props.canonicalUrl} />}
@@ -28,7 +28,7 @@ function PageHead(props: Props) {
     <meta
       name="keywords"
       content={props.keywords?.join(', ') || 'React, Javascript, Typescript, 網站開發, 軟體開發, 前端, 後端, UI, UX, Go, Golang, Python, Django, Blog, 部落格, Yuanlin, 林沅霖, html, css'} />
-    <meta name="author" content="Yuanlin Lin 林沅霖" />
+    <meta name="author" content="ChengChe Tsai 蔡承哲" />
     <meta property="og:type" content={props.type || 'website'} key="type" />
     <meta
       property="og:description"
